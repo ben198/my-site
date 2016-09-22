@@ -1,10 +1,19 @@
 import React from 'react';
 import { render } from 'react-dom';
-import Foo from './components/Foo/Foo';
+import Header from './components/Header/Header';
+import Nav from './components/Nav/Nav';
+import Logo from './components/Logo/Logo';
 import Bootstrap from 'bootstrap/dist/css/bootstrap.css';
 import './components/styles.scss';
 
 render(
-    <Foo/>,
+    <div>
+        <Header>
+            <div className="center">
+                <Logo/>
+                <Nav/>
+            </div>
+        </Header>
+    </div>,
     document.getElementById('container')
 );

@@ -1,0 +1,65 @@
+.nav-custom {
+  margin-top: 28px;
+  float: right;
+}
+
+.nav-items {
+}
+
+.nav-item {
+  width: 36px;
+  position: relative;
+  display: inline-block;
+  margin-right: 13px;
+  margin-left: 10px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.nav-item-link {
+  display: block;
+}
+
+.nav-item svg {
+    fill: #fff
+}
+
+.nav-item-link:hover::before {
+    position: absolute;
+    content: "";
+    background-color: #fff;
+    z-index: -1;
+}
+
+.nav-item-link-linkedin:hover::before, 
+.nav-item-link-youtube:hover::before {
+    top: 6px;
+    left: 6px;
+    height: 24px;
+    width: 24px;
+}
+
+.nav-item-link-github:hover::before {
+    top: 6px;
+    left: 5px;
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+}
+
+.nav-item-link-linkedin:hover svg {
+    fill: #0077B5
+}
+
+.nav-item-link-youtube:hover svg {
+    fill: #F5210B
+}
+
+.nav-item-link-twitter:hover svg {
+    fill: #5EA9DD
+}
+
+.nav-item-link-github:hover svg {
+    fill: #323131
+}

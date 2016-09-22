@@ -1,1 +1,30 @@
-@import './Foo/Foo.scss';
+body {
+    background-color: #1F324C;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+@mixin clearfix {
+    &::after {
+        content: "";
+        display: table;
+        clear: both
+    }
+}
+
+.center {
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+    @include clearfix;
+}
+
+@import './Header/Header.scss';
+@import './Nav/Nav.scss';
+@import './Logo/Logo.scss';
