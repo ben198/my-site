@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+#hero-unit {
+  margin: 150px auto 0 auto;
+  width: 400px;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 30px;
+  border-radius: 6px;
+  padding: 60px;
+}
+
+#hero-unit h1 {
+  font-size: 60px;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+#main-artist {
+  text-align: center;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+#main-artist p {
+  margin: 20px 0;
+  font-size: 24px;
+}
+
+#main-artist a.main-artist-link {
+  display: block;
+  margin: 0 auto;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #41CBC7;
+  text-transform: uppercase;
+}
+
+.similar-artist {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.similar-artist a {
+  display: block;
+  height: 100%;
+}
+
+.artist-search {
+  position: absolute;
+  top: 590px;
+}
+
+.funkyDiv {
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  background-color: green;
+}
