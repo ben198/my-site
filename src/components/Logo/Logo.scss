@@ -4,6 +4,7 @@
     max-height: 90px;
     &::before {
         top: 10px;
+        left: -1px;
         position: absolute;
         content: "";
         height: 69px;
