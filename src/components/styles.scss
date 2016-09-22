@@ -1,5 +1,18 @@
+// Google fonts
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800);
+
+// Font variables
+$open-sans: 'Open Sans', sans-serif;
+$font-family-base: $open-sans;
+
+html {
+    font-size: 16px;
+}
+
 body {
+    font-family: $font-family-base;
     background-color: #1F324C;
+    color: #fff;
 }
 
 ul {
@@ -8,6 +21,15 @@ ul {
 
 ul li {
     list-style: none;
+}
+
+@function calculateRem($size) {
+    $remSize: $size / 16px;
+    @return $remSize * 1rem;
+}
+
+@mixin font-size($size) {
+    font-size: calculateRem($size);
 }
 
 @mixin clearfix {
@@ -28,3 +50,4 @@ ul li {
 @import './Header/Header.scss';
 @import './Nav/Nav.scss';
 @import './Logo/Logo.scss';
+@import './Greeting/Greeting.scss';
