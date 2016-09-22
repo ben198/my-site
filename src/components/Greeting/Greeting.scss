@@ -1,0 +1,35 @@
+.greeting {
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 22.22222222%;
+    width: 55.55555556%;
+    margin: 0 auto;
+}
+
+.greeting-heading {
+    @include font-size(78px);
+    font-weight: 800;
+    letter-spacing: -2px;
+    text-align: center;
+}
+
+.greeting-text {
+    @include font-size(14px);
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1.4em;
+    margin: 18px 0 18px;
+}
+
+.greeting-icon {
+    display: block;
+    width: 64px;
+    margin: 0 auto;
+    svg {
+        fill: #fff
+    }
+}

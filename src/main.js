@@ -3,6 +3,7 @@ import { render } from 'react-dom';
 import Header from './components/Header/Header';
 import Nav from './components/Nav/Nav';
 import Logo from './components/Logo/Logo';
+import Greeting from './components/Greeting/Greeting';
 import Bootstrap from 'bootstrap/dist/css/bootstrap.css';
 import './components/styles.scss';
 
@@ -14,6 +15,7 @@ render(
                 <Nav/>
             </div>
         </Header>
+        <Greeting/>
     </div>,
     document.getElementById('container')
 );
