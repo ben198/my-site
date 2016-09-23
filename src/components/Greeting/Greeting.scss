@@ -4,8 +4,10 @@
     display: flex;
     align-items: center;
     left: 22.22222222%;
-    width: 55.55555556%;
     margin: 0 auto;
+    @media (max-width: 767px) {
+        left: 0;
+    }
 }
 
 .greeting-heading {
@@ -13,6 +15,9 @@
     font-weight: 800;
     letter-spacing: -2px;
     text-align: center;
+    @media (max-width: 484px) {
+        @include font-size(62px);
+    }
 }
 
 .greeting-text {

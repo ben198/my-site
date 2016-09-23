@@ -15,7 +15,11 @@ render(
                 <Nav/>
             </div>
         </Header>
-        <Greeting/>
+        <div className="container">
+            <div className="row">
+                <Greeting classNames={['col-xs-12', 'col-sm-6']}/>
+            </div>
+        </div>
     </div>,
     document.getElementById('container')
 );
