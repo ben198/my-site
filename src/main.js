@@ -20,7 +20,9 @@ render(
             </Header>
             <div className="container">
                 <div className="row">
-                    <Greeting classNames={['col-xs-12', 'col-sm-6']}/>
+                    <div className="container-greeting col-xs-12 col-sm-6">
+                        <Greeting/>
+                    </div>
                 </div>
             </div>
         </div>

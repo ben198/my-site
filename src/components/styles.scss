@@ -56,6 +56,18 @@ ul li {
     height: 100vh;
 }
 
+.container-greeting {
+    height: 100%;
+    position: absolute;
+    left: 22.2222222%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    @media (max-width: 767px) {
+        left: 0;
+    }
+}
+
 @import './Header/Header.scss';
 @import './Nav/Nav.scss';
 @import './Logo/Logo.scss';

@@ -1,13 +1,5 @@
 .greeting {
-    height: 100%;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    left: 22.22222222%;
-    margin: 0 auto;
-    @media (max-width: 767px) {
-        left: 0;
-    }
+    width: 100%;
 }
 
 .greeting-heading {
