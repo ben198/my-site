@@ -15,6 +15,10 @@ body {
     color: #fff;
 }
 
+img {
+    max-width: 100%;
+}
+
 ul {
     padding: 0;
 }
@@ -57,3 +61,4 @@ ul li {
 @import './Logo/Logo.scss';
 @import './Greeting/Greeting.scss';
 @import './Skills/Skills.scss';
+@import './Clients/Clients.scss';

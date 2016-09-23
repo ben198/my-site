@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import Nav from './components/Nav/Nav';
 import Logo from './components/Logo/Logo';
 import Skills from './components/Skills/Skills';
+import Clients from './components/Clients/Clients';
 import Greeting from './components/Greeting/Greeting';
 import Bootstrap from 'bootstrap/dist/css/bootstrap.css';
 import './components/styles.scss';
@@ -23,7 +24,12 @@ render(
                 </div>
             </div>
         </div>
-        <Skills/>
+        <div className="container">
+            <div className="row">
+                <Skills/>
+                <Clients/>
+            </div>
+        </div>
     </div>,
     document.getElementById('container')
 );
