@@ -1,5 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
+import data from './data.json';
 import Header from './components/Header/Header';
 import Nav from './components/Nav/Nav';
 import Logo from './components/Logo/Logo';
@@ -42,24 +43,51 @@ render(
                 <div className="skills col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0">
                     <div className="row skills-row">
                         <h3 className="heading-small col-xs-12">My skills</h3>
-                        {[
-                            <IconAngular/>,
-                            <IconBootstrap/>,
-                            <IconCss3/>,
-                            <IconGulp/>,
-                            <IconHtml5/>,
-                            <IconJavascript/>,
-                            <IconReact/>,
-                            <IconSass/>,
+                        <div
+                            className="col-xs-3"
+                            title={data.text.skills.html}>
+                            <IconHtml5/>
+                        </div>
+                        <div
+                            className="col-xs-3"
+                            title={data.text.skills.css}>
+                            <IconCss3/>
+                        </div>
+                        <div
+                            className="col-xs-3"
+                            title={data.text.skills.js}>
+                            <IconJavascript/>
+                        </div>
+                        <div
+                            className="col-xs-3"
+                            title={data.text.skills.sass}>
+                            <IconSass/>
+                        </div>
+                        <div
+                            className="col-xs-3"
+                            title={data.text.skills.angular}>
+                            <IconAngular/>
+                        </div>
+                        <div
+                            className="col-xs-3"
+                            title={data.text.skills.gulp}>
+                            <IconGulp/>
+                        </div>
+                        <div
+                            className="col-xs-3"
+                            title={data.text.skills.react}>
+                            <IconReact/>
+                        </div>
+                        <div
+                            className="col-xs-3"
+                            title={data.text.skills.webpack}>
                             <IconWebpack/>
-                        ].map((ele, index) =>
-                            <div
-                                className="col-xs-3"
-                                title="Foo"
-                                ref={index}>
-                                {ele}
-                            </div>
-                        )}
+                        </div>
+                        <div
+                            className="col-xs-3"
+                            title={data.text.skills.bootstrap}>
+                            <IconBootstrap/>
+                        </div>
                     </div>
                 </div>
                 <div className="clients col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-2">
