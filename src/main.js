@@ -42,7 +42,9 @@ render(
             <div className="row">
                 <div className="skills col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0">
                     <div className="row skills-row">
-                        <h3 className="heading-small col-xs-12">My skills</h3>
+                        <h3 className="heading-small col-xs-12">
+                            {data.text.skills.header}
+                        </h3>
                         <div
                             className="col-xs-3"
                             title={data.text.skills.html}>
@@ -92,25 +94,27 @@ render(
                 </div>
                 <div className="clients col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-2">
                     <div className="row clients-row">
-                        <h3 className="heading-small col-xs-12">Companies I have worked with</h3>
+                        <h3 className="heading-small col-xs-12">
+                            {data.text.clients.header}
+                        </h3>
                         <div
                             className="col-xs-4"
-                            title="Foo">
-                            <a href="">
+                            title={data.text.clients.kerve.title}>
+                            <a href={data.text.clients.kerve.siteUrl}>
                                 <IconKerve/>
                             </a>
                         </div>
                         <div
                             className="col-xs-4"
-                            title="Foo">
-                            <a href="">
+                            title={data.text.clients.olice.title}>
+                            <a href={data.text.clients.olice.siteUrl}>
                                 <img src={oliceImgSrc}/>
                             </a>
                         </div>
                         <div
                             className="col-xs-4 learnsci"
-                            title="Foo">
-                            <a href="">
+                            title={data.text.clients.learnsci.title}>
+                            <a href={data.text.clients.learnsci.siteUrl}>
                                 <img src={learnsciImgSrc}/>
                             </a>
                         </div>
