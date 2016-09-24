@@ -3,6 +3,7 @@ import { render } from 'react-dom';
 import Header from './components/Header/Header';
 import Nav from './components/Nav/Nav';
 import Logo from './components/Logo/Logo';
+import Footer from './components/Footer/Footer';
 import Greeting from './components/Greeting/Greeting';
 import IconAngular from './components/icons/IconAngular';
 import IconBootstrap from './components/icons/IconBootstrap';
@@ -88,6 +89,9 @@ render(
                     </div>
                 </div>
             </div>
+        </div>
+        <div className="center">
+            <Footer/>
         </div>
     </div>,
     document.getElementById('container')
