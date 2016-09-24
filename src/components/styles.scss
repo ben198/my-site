@@ -59,13 +59,17 @@ ul li {
 .container-greeting {
     height: 100%;
     position: absolute;
-    left: 22.2222222%;
+    left: 25%;
     display: flex;
     align-items: center;
     margin: 0 auto;
     @media (max-width: 767px) {
         left: 0;
     }
+}
+
+.clients {
+    margin-bottom: 24px;
 }
 
 .clients-row {
@@ -83,6 +87,10 @@ ul li {
     border-radius: 5px;
 }
 
+.skills {
+    margin-bottom: 24px;
+}
+
 .skills-row {
     display: flex;
     flex-wrap: wrap;
@@ -92,6 +100,13 @@ ul li {
     display: flex;
     flex-direction: column;
     margin-bottom: 12px;
+}
+
+.heading-small {
+    @include font-size(18px);
+    &[class*='col-'] {
+        margin-bottom: 28px;
+    }
 }
 
 @import './Header/Header.scss';

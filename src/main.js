@@ -38,8 +38,9 @@ render(
         </div>
         <div className="container">
             <div className="row">
-                <div className="col-xs-3 col-xs-offset-1">
+                <div className="skills col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0">
                     <div className="row skills-row">
+                        <h3 className="heading-small col-xs-12">My skills</h3>
                         {[
                             <IconAngular/>,
                             <IconBootstrap/>,
@@ -52,7 +53,7 @@ render(
                             <IconWebpack/>
                         ].map((ele, index) =>
                             <div
-                                className="col-md-4 col-xs-6"
+                                className="col-xs-3"
                                 title="Foo"
                                 ref={index}>
                                 {ele}
@@ -60,24 +61,25 @@ render(
                         )}
                     </div>
                 </div>
-                <div className="col-xs-4 col-xs-offset-3">
+                <div className="clients col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-2">
                     <div className="row clients-row">
+                        <h3 className="heading-small col-xs-12">Companies I have worked with</h3>
                         <div
-                            className="col-lg-4 col-sm-6 col-xs-12"
+                            className="col-xs-4"
                             title="Foo">
                             <a href="">
                                 <IconKerve/>
                             </a>
                         </div>
                         <div
-                            className="col-lg-4 col-sm-6 col-xs-12"
+                            className="col-xs-4"
                             title="Foo">
                             <a href="">
                                 <img src={oliceImgSrc}/>
                             </a>
                         </div>
                         <div
-                            className="col-lg-4 col-sm-6 col-xs-12 learnsci"
+                            className="col-xs-4 learnsci"
                             title="Foo">
                             <a href="">
                                 <img src={learnsciImgSrc}/>
