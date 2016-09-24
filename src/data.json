@@ -5,6 +5,7 @@
             "body": "Thank you for stopping by. I'm a front end developer based in Bristol, England. On this page you can find examples of some of my recent projects. I am taking on freelance work right now, so if you would like to work with me please do get in touch."
         },
         "skills": {
+            "header": "My skills",
             "html": "HTML5",
             "css": "CSS3",
             "js": "JavaScript",
@@ -16,6 +17,7 @@
             "bootstrap": "Bootstrap"
         },
         "clients": {
+            "header": "Companies I have worked with",
             "kerve": {
                 "title": "Kerve",
                 "siteUrl": "http://www.kerve.co.uk/"
@@ -28,6 +30,9 @@
                 "title": "Learning Science Ltd",
                 "siteUrl": "http://www.learnsci.co.uk/"
             }
+        },
+        "footer": {
+            "copyright": "2016 Ben Townsend"
         }
     }
 }
