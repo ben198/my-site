@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class IconBootstrap extends Component {
     render() {
         return (
-            <svg x="0px" y="0px" viewBox="0 0 139.1 137.8" enable-background="new 0 0 139.1 137.8">
+            <svg x="0px" y="0px" viewBox="0 0 139.1 137.8" enableBackground="new 0 0 139.1 137.8">
                 <g>
                     <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="212.8385" y1="-52.5912" x2="12.3624" y2="117.378">
                         <stop  offset="0" style={{stopColor:'#7A2D4E'}}/>

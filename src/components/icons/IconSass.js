@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class IconSass extends Component {
     render() {
         return (
-            <svg x="0px" y="0px" viewBox="0 0 133.8 100.1" enable-background="new 0 0 133.8 100.1">
+            <svg x="0px" y="0px" viewBox="0 0 133.8 100.1" enableBackground="new 0 0 133.8 100.1">
                 <g id="P7Bpq9_3_">
                     <g>
                         <path fill="#CC6699" d="M62.7,58.4c1.8,0.3,2.6,1.3,2.2,3.1c-1.1,4.3-2.4,8.5-3.2,12.9c-0.2,1.1-0.3,2.1-0.1,3.3

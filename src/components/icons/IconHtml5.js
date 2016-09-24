@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class IconHtml5 extends Component {
     render() {
         return (
-            <svg x="0px" y="0px" viewBox="0 0 105.9 120.1" enable-background="new 0 0 105.9 120.1">
+            <svg x="0px" y="0px" viewBox="0 0 105.9 120.1" enableBackground="new 0 0 105.9 120.1">
                 <g>
                     <polygon fill="#E55025" points="0,0 105.9,0 96.5,108.2 52.9,120.1 9.4,108.2     "/>
                     <polygon fill="#F26722" points="96.8,9 53.3,9 53.3,111.2 88.4,101.2     "/>

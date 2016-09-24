@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class IconAngular extends Component {
     render() {
         return (
-            <svg x="0px" y="0px" viewBox="0 0 123.8 131.4" enable-background="new 0 0 123.8 131.4">
+            <svg x="0px" y="0px" viewBox="0 0 123.8 131.4" enableBackground="new 0 0 123.8 131.4">
                 <g>
                     <polygon fill="#BA2731" points="117.4,26.5 60.7,6.7 60.7,124.7 108.5,98.8   "/>
                     <polygon fill="#E72734" points="6.3,26.5 60.7,6.7 60.7,124.7 15,99.3    "/>

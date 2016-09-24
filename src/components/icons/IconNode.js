@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class IconNode extends Component {
     render() {
         return (
-            <svg x="0px" y="0px" viewBox="0 0 133.5 36.9" enable-background="new 0 0 133.5 36.9">
+            <svg x="0px" y="0px" viewBox="0 0 133.5 36.9" enableBackground="new 0 0 133.5 36.9">
                 <g>
                     <g>
                         <g>

@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class IconCss3 extends Component {
     render() {
         return (
-            <svg x="0px" y="0px" viewBox="0 0 105.3 119.4" enable-background="new 0 0 105.3 119.4">
+            <svg x="0px" y="0px" viewBox="0 0 105.3 119.4" enableBackground="new 0 0 105.3 119.4">
                 <g>
                     <polygon fill="#0A71B9" points="0,0 105.3,0 95.9,107.6 52.6,119.4 9.4,107.6     "/>
                     <polygon fill="#28A7DE" points="52.6,8.9 96.5,8.9 88.1,100.6 52.6,110.8     "/>

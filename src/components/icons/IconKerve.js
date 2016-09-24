@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class IconKerve extends Component {
     render() {
         return (
-            <svg x="0px" y="0px" viewBox="0 0 199.587 26.682" enable-background="new 0 0 199.587 26.682">
+            <svg x="0px" y="0px" viewBox="0 0 199.587 26.682" enableBackground="new 0 0 199.587 26.682">
                 <g>
                     <path fill="#FFFFFF" d="M21.98,26.682L10.182,12.561L21.132,0h-5.859L4.727,12.681V0H0v26.682h4.727v-8.521l2.384-2.76l9.01,11.281
                         H21.98z"/>
