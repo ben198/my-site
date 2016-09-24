@@ -68,9 +68,33 @@ ul li {
     }
 }
 
+.clients-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.clients-row > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+.learnsci img {
+    border-radius: 5px;
+}
+
+.skills-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills-row > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
 @import './Header/Header.scss';
 @import './Nav/Nav.scss';
 @import './Logo/Logo.scss';
 @import './Greeting/Greeting.scss';
-@import './Skills/Skills.scss';
-@import './Clients/Clients.scss';
