@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
 import data from '../data.json';
+import reactTweetsSrc from '../public/images/tweets.jpg';
+import fruitMachineSrc from '../public/images/fruit-machine.png';
+import musicAppSrc from '../public/images/music-app.jpg';
+import metronomeSrc from '../public/images/metronome.jpg';
 import Header from './Header/Header';
 import Nav from './Nav/Nav';
 import Logo from './Logo/Logo';
 import Footer from './Footer/Footer';
 import Greeting from './Greeting/Greeting';
+import Project from './Project/Project';
 import IconAngular from './icons/IconAngular';
 import IconBootstrap from './icons/IconBootstrap';
 import IconCss3 from './icons/IconCss3';
@@ -120,6 +125,29 @@ export default class App extends Component {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div className="container">
+                    <h3 className="heading-small">{data.text.projects.title}</h3>
+                    <Project
+                        title={data.text.projects.reactTweets.title}
+                        text={data.text.projects.reactTweets.text}
+                        image={reactTweetsSrc}
+                        link={data.text.projects.reactTweets.link}/>
+                    <Project
+                        title={data.text.projects.fruitMachine.title}
+                        text={data.text.projects.fruitMachine.text}
+                        image={fruitMachineSrc}
+                        link={data.text.projects.fruitMachine.link}/>
+                    <Project
+                        title={data.text.projects.musicApp.title}
+                        text={data.text.projects.musicApp.text}
+                        image={musicAppSrc}
+                        link={data.text.projects.musicApp.link}/>
+                    <Project
+                        title={data.text.projects.metronome.title}
+                        text={data.text.projects.metronome.text}
+                        image={metronomeSrc}
+                        link={data.text.projects.metronome.link}/>
                 </div>
                 <div className="center">
                     <Footer/>
