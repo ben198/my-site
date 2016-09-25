@@ -1,0 +1,24 @@
+.project {
+    width: 100%;
+    @include clearfix;
+}
+
+.project-img {
+    float: left;
+    width: 63%;
+    display: block;
+    border: 6px solid #404861;
+    @media screen and (min-width:1px) and (max-width:929px) {
+        width: 100%;
+    }
+}
+
+.project-info {
+    float: left;
+    width: 35%;
+    margin-left: 2%;
+    @media screen and (min-width:1px) and (max-width:929px) {
+        margin-left: 0;
+        width: 100%
+    }
+}
