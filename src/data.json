@@ -33,6 +33,48 @@
         },
         "footer": {
             "copyright": "2016 Ben Townsend"
+        },
+        "projects": {
+            "reactTweets": {
+                "title": "React Google Map Tweets",
+                "text": "By leveraging the features of libraries such as <a href='https://github.com/istarkov/google-map-react'>google-map-react</a> and <a href='https://github.com/ttezel/twit'>twit</a> I was able to create an app which appends tweet data, as a React component, to a Google Map. A Node server receives tweets from the Twitter streaming API, which are then piped to the client using <a href='https://github.com/socketio/socket.io'>socket.io</a>. Still a work in progress but the app's most basic feature, getting data and displaying it, is working.",
+                "link": "http://bentownsend.name/work/react-twitter/"
+            },
+            "tomek": {
+                "title": "tomaszpodpora.com",
+                "text": "I was hired to design and build a responsive, bilingual site for a professional addiction therapist. The client wanted the site to be accessible to English and Polish speakers, so I wrote a program in JavaScript which switches between the default English and the custom Polish translation. Wordpress was used as the CMS.",
+                "link": "http://www.tomaszpodpora.com"
+            },
+            "contactManager": {
+                "title": "React Contact Manager",
+                "text": "This is a very simple contact management tool which I made while I was learning how to use Facebook's React library. I also used Redux to manage the application's state.",
+                "link": "http://bentownsend.name/work/react-contact-manager/"
+            },
+            "fruitMachine": {
+                "title": "Fruit Machine",
+                "text": "I was inspired to make this after I watched a JavaScript debugging tutorial in which the author had made a spinning wheel game to use as an example. All the logic for the app is written in plain JS.",
+                "link": "http://bentownsend.name/work/fruit-machine/"
+            },
+            "canvasExperiment": {
+                "title": "Canvas Experiment",
+                "text": "This demo is the first result of my experiments with the HTML5 Canvas API. Working with this technology is a lot of fun, and I will be starting a new Canvas project soon.",
+                "link": "http://bentownsend.name/work/canvas-demo/"
+            },
+            "musicApp": {
+                "title": "Music App",
+                "text": "I prototyped this application for a creative agency in Bath, using the Last.fm API. They asked me to make something which would allow a user to search for an artist or group, and return a list of similar artists which the user could then explore.",
+                "link": "http://bentownsend.name/work/music-app/"
+            },
+            "metronome": {
+                "title": "Metronome",
+                "text": "I play guitar as a hobby and I had the idea of building a metronome in JavaScript that I could practice with. Working on this personal project had the dual benefit of allowing me to improve my JavaScript skills, and produce a tool that I use on a daily basis.",
+                "link": "http://bentownsend.name/work/metronome/"
+            },
+            "cardiff": {
+                "title": "cardiffbaytours.co.uk",
+                "text": "I designed and coded this website for a tour company based in Cardiff, using jQuery for the sliding menus and Photoshop for some of the graphics. Plugins were utilised for the photo gallery and contact form.",
+                "link": "http://www.cardiffbaytours.co.uk"
+            }
         }
     }
 }
