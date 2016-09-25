@@ -35,6 +35,7 @@
             "copyright": "2016 Ben Townsend"
         },
         "projects": {
+            "title": "Some recent personal projects",
             "reactTweets": {
                 "title": "React Google Map Tweets",
                 "text": "By leveraging the features of libraries such as <a href='https://github.com/istarkov/google-map-react'>google-map-react</a> and <a href='https://github.com/ttezel/twit'>twit</a> I was able to create an app which appends tweet data, as a React component, to a Google Map. A Node server receives tweets from the Twitter streaming API, which are then piped to the client using <a href='https://github.com/socketio/socket.io'>socket.io</a>. Still a work in progress but the app's most basic feature, getting data and displaying it, is working.",
