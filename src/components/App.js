@@ -27,18 +27,18 @@ export default class App extends Component {
     render() {
         return (
             <div>
-                <div className="container-toplevel">
-                    <Header>
-                        <div className="center">
-                            <Logo/>
-                            <Nav/>
+                <div className="container full-height">
+                    <div className="row">
+                        <div className="col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0">
+                            <Header>
+                                <Logo/>
+                                <Nav/>
+                            </Header>
                         </div>
-                    </Header>
-                    <div className="container">
-                        <div className="row">
-                            <div className="container-greeting col-xs-12 col-sm-6">
-                                <Greeting/>
-                            </div>
+                    </div>
+                    <div className="row">
+                        <div className="container-greeting col-xs-12 col-sm-6">
+                            <Greeting/>
                         </div>
                     </div>
                 </div>
@@ -149,9 +149,7 @@ export default class App extends Component {
                         image={metronomeSrc}
                         link={data.text.projects.metronome.link}/>
                 </div>
-                <div className="center">
-                    <Footer/>
-                </div>
+                <Footer/>
             </div>
         );
     }
