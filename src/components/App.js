@@ -44,79 +44,77 @@ export default class App extends Component {
                 </div>
                 <div className="container">
                     <div className="row">
-                        <div className="skills col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0">
+                        <div className="skills col-xs-8 col-xs-offset-2 col-sm-5 col-sm-offset-0">
+                            <h3 className="heading-small">{data.text.skills.header}</h3>
                             <div className="row skills-row">
-                                <h3 className="heading-small col-xs-12">
-                                    {data.text.skills.header}
-                                </h3>
                                 <div
-                                    className="col-xs-3"
+                                    className="col-xs-4 col-md-3"
                                     title={data.text.skills.html}>
                                     <IconHtml5/>
                                 </div>
                                 <div
-                                    className="col-xs-3"
+                                    className="col-xs-4 col-md-3"
                                     title={data.text.skills.css}>
                                     <IconCss3/>
                                 </div>
                                 <div
-                                    className="col-xs-3"
+                                    className="col-xs-4 col-md-3"
                                     title={data.text.skills.js}>
                                     <IconJavascript/>
                                 </div>
                                 <div
-                                    className="col-xs-3"
+                                    className="col-xs-4 col-md-3"
                                     title={data.text.skills.sass}>
                                     <IconSass/>
                                 </div>
                                 <div
-                                    className="col-xs-3"
+                                    className="col-xs-4 col-md-3"
                                     title={data.text.skills.angular}>
                                     <IconAngular/>
                                 </div>
                                 <div
-                                    className="col-xs-3"
+                                    className="col-xs-4 col-md-3"
                                     title={data.text.skills.gulp}>
                                     <IconGulp/>
                                 </div>
                                 <div
-                                    className="col-xs-3"
+                                    className="col-xs-4 col-md-3"
                                     title={data.text.skills.react}>
                                     <IconReact/>
                                 </div>
                                 <div
-                                    className="col-xs-3"
+                                    className="col-xs-4 col-md-3"
                                     title={data.text.skills.webpack}>
                                     <IconWebpack/>
                                 </div>
                                 <div
-                                    className="col-xs-3"
+                                    className="col-xs-4 col-md-3"
                                     title={data.text.skills.bootstrap}>
                                     <IconBootstrap/>
                                 </div>
                             </div>
                         </div>
-                        <div className="clients col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-2">
+                        <div className="clients col-xs-8 col-xs-offset-2 col-sm-5 col-sm-offset-2">
                             <div className="row clients-row">
                                 <h3 className="heading-small col-xs-12">
                                     {data.text.clients.header}
                                 </h3>
                                 <div
-                                    className="col-xs-4"
+                                    className="col-xs-6 col-md-4"
                                     title={data.text.clients.kerve.title}>
                                     <a href={data.text.clients.kerve.siteUrl}>
                                         <IconKerve/>
                                     </a>
                                 </div>
                                 <div
-                                    className="col-xs-4"
+                                    className="col-xs-6 col-md-4"
                                     title={data.text.clients.olice.title}>
                                     <a href={data.text.clients.olice.siteUrl}>
                                         <img src={oliceImgSrc}/>
                                     </a>
                                 </div>
                                 <div
-                                    className="col-xs-4 learnsci"
+                                    className="col-xs-6 col-md-4 learnsci"
                                     title={data.text.clients.learnsci.title}>
                                     <a href={data.text.clients.learnsci.siteUrl}>
                                         <img src={learnsciImgSrc}/>
