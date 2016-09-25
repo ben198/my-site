@@ -4,6 +4,7 @@ import reactTweetsSrc from '../public/images/tweets.jpg';
 import fruitMachineSrc from '../public/images/fruit-machine.png';
 import musicAppSrc from '../public/images/music-app.jpg';
 import metronomeSrc from '../public/images/metronome.jpg';
+import contactManagerSrc from '../public/images/contact-manager.jpg';
 import Header from './Header/Header';
 import Nav from './Nav/Nav';
 import Logo from './Logo/Logo';
@@ -131,6 +132,11 @@ export default class App extends Component {
                         text={data.text.projects.reactTweets.text}
                         image={reactTweetsSrc}
                         link={data.text.projects.reactTweets.link}/>
+                    <Project
+                        title={data.text.projects.contactManager.title}
+                        text={data.text.projects.contactManager.text}
+                        image={contactManagerSrc}
+                        link={data.text.projects.contactManager.link}/>
                     <Project
                         title={data.text.projects.fruitMachine.title}
                         text={data.text.projects.fruitMachine.text}
