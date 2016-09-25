@@ -1,5 +1,6 @@
 .project {
     width: 100%;
+    margin-bottom: 68px;
     @include clearfix;
 }
 
@@ -8,7 +9,7 @@
     width: 63%;
     display: block;
     border: 6px solid #404861;
-    @media screen and (min-width:1px) and (max-width:929px) {
+    @media screen and (min-width:1px) and (max-width:991px) {
         width: 100%;
     }
 }
@@ -17,7 +18,7 @@
     float: left;
     width: 35%;
     margin-left: 2%;
-    @media screen and (min-width:1px) and (max-width:929px) {
+    @media screen and (min-width:1px) and (max-width:991px) {
         margin-left: 0;
         width: 100%
     }
