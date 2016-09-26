@@ -2,11 +2,26 @@ const path = require('path');
 const nodeModulesPath = path.resolve(__dirname, 'node_modules');
 const buildPath = path.resolve(__dirname, 'dist');
 
+const settings = {
+    development: {
+        publicPath: '/assets/',
+        jsQueryPresets: ['react', 'es2015', 'react-hmre']
+    },
+    production: {
+        publicPath: '/',
+        jsQueryPresets: ['react', 'es2015']
+    }
+};
+
+const isProduction = process.env.NODE_ENV === 'production';
+console.log(isProduction)
+const settingsToUse = isProduction ? settings.production : settings.development;
+
 module.exports = {
     entry: './src/main.js',
     output: {
         path: buildPath,
-        publicPath: '/assets/',
+        publicPath: settingsToUse.publicPath,
         filename: 'bundle.js'
     },
     module: {
@@ -16,7 +31,7 @@ module.exports = {
                 exclude: [nodeModulesPath],
                 loader: 'babel',
                 query: {
-                    presets: ['react', 'es2015', 'react-hmre']
+                    presets: settingsToUse.jsQueryPresets
                 }
             },
             {
