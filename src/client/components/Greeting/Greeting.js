@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import IconMail from '../icons/IconMail';
-import data from '../../data.json';
+import data from '../../../data.json';
 
 export default class Greeting extends Component {
     render() {

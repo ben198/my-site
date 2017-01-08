@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import data from '../data.json';
-import reactTweetsSrc from '../public/images/tweets.jpg';
-import fruitMachineSrc from '../public/images/fruit-machine.png';
-import musicAppSrc from '../public/images/music-app.jpg';
-import metronomeSrc from '../public/images/metronome.jpg';
-import contactManagerSrc from '../public/images/contact-manager.jpg';
+import data from '../../data.json';
+import reactTweetsSrc from '../../public/images/tweets.jpg';
+import fruitMachineSrc from '../../public/images/fruit-machine.png';
+import musicAppSrc from '../../public/images/music-app.jpg';
+import metronomeSrc from '../../public/images/metronome.jpg';
+import contactManagerSrc from '../../public/images/contact-manager.jpg';
 import Header from './Header/Header';
 import Nav from './Nav/Nav';
 import Logo from './Logo/Logo';
@@ -21,8 +21,8 @@ import IconReact from './icons/IconReact';
 import IconSass from './icons/IconSass';
 import IconWebpack from './icons/IconWebpack';
 import IconKerve from './icons/IconKerve';
-import oliceImgSrc from '../public/images/olice.png';
-import learnsciImgSrc from '../public/images/learnsci.png';
+import oliceImgSrc from '../../public/images/olice.png';
+import learnsciImgSrc from '../../public/images/learnsci.png';
 
 export default class App extends Component {
     render() {
