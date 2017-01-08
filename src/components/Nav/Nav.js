@@ -11,7 +11,7 @@ export default class Nav extends Component {
             <nav className="nav-custom">
                 <ul className="nav-items">
                     <li className="nav-item nav-item-linkedin">
-                         <a className="nav-item-link nav-item-link-linkedin" href="http://uk.linkedin.com/pub/ben-townsend/a5/5b5/629">
+                         <a className="nav-item-link nav-item-link-linkedin" href="https://uk.linkedin.com/in/ben-townsend-6295b5a5">
                             <IconLinkedin/>
                         </a>                       
                     </li>
