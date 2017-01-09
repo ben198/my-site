@@ -1,4 +1,5 @@
 const path = require('path');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const clientDir = path.resolve(__dirname, 'src/client');
 const serverDir = path.resolve(__dirname, 'src/server/generated');
 const distDir = path.resolve(__dirname, 'dist');
@@ -14,11 +15,11 @@ const loaders = [
     },
     {
         test: /\.css$/,
-        loader: 'style!css'
+        loader: ExtractTextPlugin.extract('style', 'css')
     },
     {
         test: /\.scss$/,
-        loaders: ['style', 'css', 'sass']
+        loader: ExtractTextPlugin.extract('style', 'css!sass')
     },
     {
         test: /\.json$/,
@@ -50,7 +51,10 @@ module.exports = [
         },
         module: {
             loaders: loaders
-        }
+        },
+        plugins: [
+            new ExtractTextPlugin('bundle.css', {allChunks: true})
+        ]
     },
     {
         name: 'server',
@@ -66,6 +70,9 @@ module.exports = [
         },
         module: {
             loaders: loaders
-        }
+        },
+        plugins: [
+            new ExtractTextPlugin('[name].css')
+        ]
     }
 ];
