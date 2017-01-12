@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import IconLinkedin from '../icons/IconLinkedin';
 import IconYoutube from '../icons/IconYoutube';
 import IconTwitter from '../icons/IconTwitter';
-import IconGithub from '../icons/IconGithub';
+import IconGithub from '../icons/IconGithub.jsx';
 import imgMe from '../../../public/images/img-me.png';
 
 export default class Nav extends Component {

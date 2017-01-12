@@ -6,7 +6,7 @@ const distDir = path.resolve(__dirname, 'dist');
 const nodeModulesDir = path.resolve(__dirname, 'node_modules');
 const loaders = [
     {
-        test: /\js?$/,
+        test: /\jsx?$/,
         exclude: [nodeModulesDir],
         loader: 'babel',
         query: {
@@ -61,7 +61,7 @@ module.exports = [
         target: 'node',
         context: clientDir,
         entry: {
-            app: './components/App.js'
+            app: './components/App.jsx'
         },
         output: {
             path: serverDir,
