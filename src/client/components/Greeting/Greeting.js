@@ -1,5 +1,5 @@
 import React from 'react';
-import IconMail from '../icons/IconMail';
+import IconMail from '../icons/IconMail.jsx';
 import data from '../../../data.json';
 
 const Greeting = () => (

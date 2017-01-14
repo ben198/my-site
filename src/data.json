@@ -24,11 +24,13 @@
             },
             "olice": {
                 "title": "Olice Productions",
-                "siteUrl": "http://olice.co.uk/"
+                "siteUrl": "http://olice.co.uk/",
+                "altText": "Olice Productions logo"
             },
             "learnsci": {
                 "title": "Learning Science Ltd",
-                "siteUrl": "http://www.learnsci.co.uk/"
+                "siteUrl": "http://www.learnsci.co.uk/",
+                "altText": "Learning Science logo"
             }
         },
         "footer": {

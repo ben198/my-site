@@ -38,13 +38,16 @@ const loaders = [
         loader: 'url?limit=8192'
     }
 ];
+const resolve = {
+    extensions: ['', '.js', '.jsx']
+};
 
 module.exports = [
     {
         name: 'client',
         target: 'web',
         context: clientDir,
-        entry: './main.js',
+        entry: './main.jsx',
         output: {
             path: distDir,
             filename: 'bundle.js'
@@ -54,7 +57,8 @@ module.exports = [
         },
         plugins: [
             new ExtractTextPlugin('bundle.css', {allChunks: true})
-        ]
+        ],
+        resolve: resolve
     },
     {
         name: 'server',
@@ -73,6 +77,7 @@ module.exports = [
         },
         plugins: [
             new ExtractTextPlugin('[name].css')
-        ]
+        ],
+        resolve: resolve
     }
 ];
